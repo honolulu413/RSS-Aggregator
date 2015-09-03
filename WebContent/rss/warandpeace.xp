@@ -1,0 +1,10 @@
+/rss[@version="2.0"]/channel/item/title[contains(text(), "war")]
+/rss[@version="2.0"]/channel/item/title[contains(text(), "peace")]
+/rss[@version="2.0"]/channel/item/description[contains(text(), "war")]
+/rss[@version="2.0"]/channel/item/description[contains(text(), "peace")]
+
+
+
+in total:
+
+/rss[@version="2.0"]/channel/item/title[contains(text(), "war")]; /rss[@version="2.0"]/channel/item/title[contains(text(), "peace")]; /rss[@version="2.0"]/channel/item/description[contains(text(), "war")]; /rss[@version="2.0"]/channel/item/description[contains(text(), "peace")]
